@@ -1,15 +1,20 @@
-<div style="text-align: center; font-size: 35px; margin-bottom: 20px;">
-    <strong>Hello！ようこそ！</strong>
-</div>
-<hr style="margin-bottom: 20px;" />
-<div style="top: 20%; text-align: center;">しまじろうのわお！１０周年🐯</div>
+<html>
 
-<!-- ボタンを追加 -->
-<div style="text-align: center; margin-top: 20px;">
-    <a href="https://example.com" target="_blank" style="text-decoration: none;">
-        <button style="padding: 10px 20px; font-size: 16px; cursor: pointer;">キャラクター紹>
-    </a></div>
-    <a>かわいいしまじろうの歴史を公開！</a>
+<body>
+    <div style="text-align: center; font-size: 35px; margin-bottom: 20px;">
+        <strong>Hello！ようこそ！</strong>
+    </div>
+    <hr style="margin-bottom: 20px;" />
+    <div id="shima" style="top: 20%; text-align: center;">しまじろうのわお！１０周年🐯</div>
 
-<!-- テキストを追加 -->
-<div>わおわお</div>
+    <!-- ボタンを追加 -->
+    <button id="addTigerButton" onclick="document.getElementById('shima').innerHTML += '🐯';void(0);"
+        style="padding: 10px 20px; font-size: 16px; cursor: pointer;">キャラクター紹介</button>
+    <div>
+        <a>かわいいしまじろうの歴史を公開！</a>
+    </div>
+    <!-- テキストを追加 -->
+    <div>わおわお</div>
+</body>
+
+</html>
